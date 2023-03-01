@@ -1,0 +1,17 @@
+h1 {
+    color:red; 
+    text-align:center;
+}
+
+h2{
+    font-family: 'Tilt Neon', cursive;
+    font-weight: 800;
+    color: red;
+    text-align: center;
+}
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+
+  ol {color: var(--blue);}
