@@ -16,3 +16,64 @@ h2{
   }
 
   ol {color: var(--blue);}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    align-content:center;
+    height: 1000px;
+    flex-wrap:wrap
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    align-content:center;
+    height:50x;
+    flex-wrap:wrap-reverse
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*the media query below is for a tablet*/
+
+@media  (min-width:426px) and (max-width:768px){
+    h1 {
+        color: aqua;
+    }
+}  
+
+/*the media query below is for a laptop*/
+
+@media  (min-width:769px) and (max-width:1024px){
+    h1 {
+        color: yellow;
+    }
+}
+
+/*the media query below is for a tv*/
+
+@media  screen and (min-width:1025px) {
+    h1 {
+        color: green;
+    }
+} 
+
